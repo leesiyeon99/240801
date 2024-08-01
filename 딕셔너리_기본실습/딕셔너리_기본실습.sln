@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "딕셔너리_기본실습", "딕셔너리_기본실습.csproj", "{26177965-F419-46AC-B81A-60671002AF12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "그래프_기본학습", "..\그래프_기본학습\그래프_기본학습.csproj", "{394689CC-E596-4138-A259-C6C43D804B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26177965-F419-46AC-B81A-60671002AF12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26177965-F419-46AC-B81A-60671002AF12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26177965-F419-46AC-B81A-60671002AF12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26177965-F419-46AC-B81A-60671002AF12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394689CC-E596-4138-A259-C6C43D804B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394689CC-E596-4138-A259-C6C43D804B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394689CC-E596-4138-A259-C6C43D804B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394689CC-E596-4138-A259-C6C43D804B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC7738EA-6F51-493D-9DD6-1380C1546059}
+	EndGlobalSection
+EndGlobal
