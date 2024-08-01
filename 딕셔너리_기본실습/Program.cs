@@ -17,6 +17,7 @@ Monster 클래스의 인스턴스 생성 시, 생성자를 사용해 딕셔너�
         static void Main(string[] args)
         {
             MonsterData monsterData = new MonsterData();
+            monsterData.DisplayMonsters();
         }
 
         class Monster
@@ -44,6 +45,15 @@ Monster 클래스의 인스턴스 생성 시, 생성자를 사용해 딕셔너�
                 monsterdata.Add("마녀", new Monster("마녀", 120, 40));
                 monsterdata.Add("드래곤", new Monster("드래곤", 300, 100));
                 monsterdata.Add("좀비", new Monster("좀비", 70, 10));
+            }
+
+            public void DisplayMonsters()
+            {
+                Console.WriteLine("몬스터 목록: ");
+                foreach (Monster monster in monsterdata.Values)
+                {
+                    Console.WriteLine($"이름: {monster.name}, HP: {monster.hp}, 공격력: {monster.attack}");
+                }
             }
         }
     }
